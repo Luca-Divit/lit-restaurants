@@ -27,7 +27,11 @@ gem "stimulus-rails"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 
+# Adding faker for seed
 gem "faker"
+
+# Adding geocoder
+gem "geocoder"
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
