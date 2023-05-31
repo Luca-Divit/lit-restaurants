@@ -32,3 +32,4 @@
 
 # Ignore the env file
 .env*
+.env
