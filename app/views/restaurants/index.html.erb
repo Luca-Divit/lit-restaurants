@@ -1,6 +1,15 @@
 <h1>Restaurants#index</h1>
 
-<div class="container">
-  <%= render "shared/restaurants", restaurants: @restaurants %>
+<div class="container d-flex justify-content-space-between">
+  <div class="restaurants-index">
+    <%= render "shared/restaurants", restaurants: @restaurants %>
+  </div>
+  <div class="mapbox">
+    <div style="width: 100%; height: 600px;"
+      data-controller="map"
+      data-map-markers-value="<%= @markers.to_json %>"
+      data-map-api-key-value="<%= ENV['MAPBOX_API_KEY'] %>">
+    </div>
+  </div>
 <a href="#" class="btn btn-primary">Apply now!</a>
 </div>
