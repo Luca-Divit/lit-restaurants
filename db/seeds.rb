@@ -12,7 +12,7 @@ puts "Creating new restaurants......"
 20.times do
   Restaurant.create(
     name: Faker::Restaurant.name,
-    address: Faker::Address.full_address,
+    address: Restaurant.cities.sample,
     cuisine: Restaurant.cuisines.sample
   )
 end

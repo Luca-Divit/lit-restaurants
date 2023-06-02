@@ -32,6 +32,9 @@ gem "faker"
 # Adding Geocoder gem
 gem "geocoder"
 
+# Adding dotenv to recognise env file variables
+gem 'dotenv-rails'
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
