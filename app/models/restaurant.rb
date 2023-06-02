@@ -6,6 +6,10 @@ class Restaurant < ApplicationRecord
   def self.cuisines
     %w[italian japanese chinese french spanish belgian]
   end
+
+  def self.cities
+    %w[Rome Paris Madrid Barcelona Milan Berlin Amsterdam]
+  end
   validates :cuisine, inclusion: {
     in: Restaurant.cuisines,
     message: " `%{value}` Is not a real cuisine
