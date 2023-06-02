@@ -5,6 +5,9 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+puts "Cleaning the database........"
+Restaurant.destroy_all
+puts "Creating new restaurants......"
 
 20.times do
   Restaurant.create(
@@ -13,3 +16,5 @@
     cuisine: Restaurant.cuisines.sample
   )
 end
+
+puts "Created #{Restaurant.count} restaurants!"
