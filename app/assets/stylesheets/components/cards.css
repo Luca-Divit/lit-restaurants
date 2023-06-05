@@ -1,0 +1,13 @@
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 1.5rem;
+}
+
+.my-card:hover {
+  transition: all 0.1s linear;
+}
+
+.my-card:hover {
+  scale: 1.02;
+}
