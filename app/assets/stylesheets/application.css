@@ -13,8 +13,10 @@
  *= require_tree .
  *= require_self
  */
-@import "components/cards.css";
-@import "components/map.css";
+@import url("components/cards");
+@import url("components/map");
+@import url("components/navbar");
+@import url("components/avatar");
 
 a {
   text-decoration: none;
