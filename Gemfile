@@ -35,6 +35,9 @@ gem "geocoder"
 # Adding dotenv to recognise env file variables
 gem 'dotenv-rails'
 
+# Adding bootstrap javascript
+gem 'bootstrap', '5.3.0.alpha3'
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
