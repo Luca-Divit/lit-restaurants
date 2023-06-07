@@ -1,7 +1,7 @@
-A ruby on rails app to manage restaurants you can:
+A ruby on rails app to manage a restaurants list where you can:
 
-- Create a restaurant
-- Modify a restaurant
-- Map view to see where they are located
+- Add a new restaurant
+- Modify an already existing restaurant
+- Feature a Map view to see where they are exactly located
 
 🚧 Work in progress.. 🚧
